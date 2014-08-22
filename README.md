@@ -1,4 +1,4 @@
-# Java Formular
+# Java Formula
 
 Formula to set up and configure Java JREs and JDKs from a tarball archive sourced via URL.
 
