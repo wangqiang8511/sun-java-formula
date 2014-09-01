@@ -20,6 +20,7 @@ install_jdk:
     - source_hash: {{ java.source_hash_url }}
     - archive_format: tar
     - if_missing: {{ java.java_home }}
+    - tar_options: z
     - require:
       - file: java_folder
   alternatives.install:
